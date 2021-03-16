@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Pattern;
 
-public class StringDecompression {
+public class StringDecompressor {
 
     public static void main(String[] args) {
         StringInflater inflater = new StringInflater();

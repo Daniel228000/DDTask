@@ -1,13 +1,11 @@
 import exceptions.InvalidExpressionException;
 import org.junit.Test;
 
-import java.io.IOException;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 
 public class Tests {
-    public StringDecompression.StringInflater inflater = new StringDecompression.StringInflater();
+    public StringDecompressor.StringInflater inflater = new StringDecompressor.StringInflater();
 
     @Test
     public void assertResult_1() {
